@@ -28,7 +28,7 @@ class CompanyStock():
 			print "Unable to open file. Reason {0}".format(e)
 
 	'''This method creates a dictionary which contains the data of each company 
-	for each month of each year. This dictionary can be used for reporting purpose.'''
+	for each month of each year. This dictionary can be used for reporting fdgdfgf purpose.'''
 	def FormatData(self):
 		_dict = {key : {} for key in self.mapping_dict.keys()} 
 		temp = {}

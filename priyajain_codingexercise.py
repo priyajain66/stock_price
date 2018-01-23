@@ -55,7 +55,7 @@ class CompanyStock():
 			
 		return max_share_year
 	
-	#This method find the maximum price of shares for each company and stores the result in a dict. This method uses the csv module.
+	#This method find dfsdfd the maximum price of shares for each company and stores the result in a dict. This method uses the csv module.
 	def getMaxShare2(self):
 		try:
 			with open(self.file_name) as f:

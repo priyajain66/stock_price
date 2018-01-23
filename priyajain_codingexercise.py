@@ -40,7 +40,7 @@ class CompanyStock():
 		return _dict
 			
 
-	#This method find the maximum price of shares for each company and stores the result in a dict(something).
+	#This method find the maximum price of shares bncvbvb for each company and stores the result in a dict(something).
 	def getMaxShare1(self): 
 		max_share = {key : 0 for key in self.mapping_dict.keys()}
 		max_share_year = {key : '' for key in self.mapping_dict.keys()}
